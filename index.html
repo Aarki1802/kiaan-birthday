@@ -123,14 +123,14 @@
     pointer-events: none; z-index: 2;
   }
 
-  .date-badge { display: inline-flex; align-items: center; gap: 0.6rem; background: rgba(201,151,58,0.1); border: 1px solid rgba(201,151,58,0.4); border-radius: 3px; padding: 0.6rem 1.2rem; font-size: 0.8rem; color: var(--gold-light); }
-  .cta-btn { display: inline-block; background: var(--gold); color: var(--deep-navy); font-family: 'Cinzel', serif; font-size: 0.95rem; font-weight: 700; letter-spacing: 0.12em; padding: 0.9rem 2rem; border-radius: 3px; text-decoration: none; cursor: pointer; border: none; transition: all 0.3s ease; }
+  .date-badge { display: inline-flex; align-items: center; gap: 0.6rem; background: rgba(201,151,58,0.1); border: 1px solid rgba(201,151,58,0.4); border-radius: 3px; padding: 0.6rem 1.2rem; font-size: 0.9rem; color: var(--gold-light); }
+  .cta-btn { display: inline-block; background: var(--gold); color: var(--deep-navy); font-family: 'Cinzel', serif; font-size: 0.95rem; font-weight: 700; letter-spacing: 0.12em; padding: 0.9rem 2.2rem; border-radius: 3px; text-decoration: none; border: none; cursor: pointer; transition: all 0.3s ease; margin-top: 1rem; }
   .cta-btn:hover { background: var(--gold-light); transform: translateY(-2px); box-shadow: 0 8px 30px rgba(201,151,58,0.4); }
 
   /* ABOUT */
   #about { padding: 5rem 1.5rem; text-align: center; }
   .about-inner { display: flex; flex-direction: column; align-items: center; gap: 2rem; }
-  .photo-about { width: 180px; height: 180px; border-radius: 50%; border: 3px solid var(--gold); overflow: hidden; display: flex; align-items: center; justify-content: center; flex-shrink: 0; box-shadow: 0 0 0 6px rgba(201,151,58,0.1), 0 0 30px rgba(201,151,58,0.15); }
+  .photo-about { width: 180px; height: 180px; border-radius: 50%; border: 3px solid var(--gold); overflow: hidden; display: flex; align-items: center; justify-content: center; flex-shrink: 0; box-shadow: 0 0 0 4px rgba(201,151,58,0.1); }
   .photo-about img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
   .about-text { max-width: 560px; }
   .about-message { font-size: 1.05rem; color: var(--cream); opacity: 0.9; font-style: italic; line-height: 1.9; }
@@ -159,12 +159,12 @@
   .detail-card .d-value { font-family: 'Cinzel', serif; font-size: 1rem; color: var(--cream); line-height: 1.4; }
   .map-placeholder { background: rgba(26,46,69,0.4); border: 1px solid rgba(201,151,58,0.2); border-radius: 4px; padding: 3rem 2rem; text-align: center; margin-top: 1.5rem; }
   .map-placeholder p { color: rgba(201,151,58,0.6); font-size: 0.85rem; margin-bottom: 1.2rem; }
-  .directions-btn { display: inline-block; border: 1px solid var(--gold); color: var(--gold-light); font-family: 'Cinzel', serif; font-size: 0.85rem; letter-spacing: 0.1em; padding: 0.65rem 1.6rem; border-radius: 3px; text-decoration: none; transition: all 0.3s ease; }
+  .directions-btn { display: inline-block; border: 1px solid var(--gold); color: var(--gold-light); font-family: 'Cinzel', serif; font-size: 0.85rem; letter-spacing: 0.1em; padding: 0.65rem 1.6rem; border-radius: 3px; text-decoration: none; cursor: pointer; transition: all 0.3s ease; background: transparent; }
   .directions-btn:hover { background: var(--gold); color: var(--deep-navy); }
 
   /* CAKE */
   #cake { padding: 5rem 1.5rem; text-align: center; }
-  .cake-photo { width: clamp(220px, 55vw, 360px); height: clamp(220px, 55vw, 360px); border-radius: 50%; background: rgba(26,46,69,0.6); border: 2px solid rgba(201,151,58,0.35); margin: 2rem auto; box-shadow: 0 0 0 6px rgba(201,151,58,0.1), 0 0 40px rgba(201,151,58,0.15); }
+  .cake-photo { width: clamp(220px, 55vw, 360px); height: clamp(220px, 55vw, 360px); border-radius: 50%; background: rgba(26,46,69,0.6); border: 2px solid rgba(201,151,58,0.35); margin: 2rem auto; }
   .cake-photo img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
   .cake-msg { max-width: 480px; margin: 0 auto; font-size: 1.05rem; font-style: italic; opacity: 0.85; }
 
@@ -173,7 +173,7 @@
   .rsvp-form-wrap { max-width: 600px; margin: 0 auto; }
   .form-group { margin-bottom: 1.25rem; }
   .form-group label { display: block; font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.5rem; }
-  .form-group input, .form-group select { width: 100%; background: rgba(26,46,69,0.5); border: 1px solid rgba(201,151,58,0.3); border-radius: 3px; padding: 0.75rem 1rem; color: var(--cream); font-family: 'Lato', sans-serif; font-size: 0.95rem; }
+  .form-group input, .form-group select { width: 100%; background: rgba(26,46,69,0.5); border: 1px solid rgba(201,151,58,0.3); border-radius: 3px; padding: 0.75rem 1rem; color: var(--cream); font-family: 'Lato', sans-serif; font-size: 1rem; }
   .form-group input:focus, .form-group select:focus { outline: none; border-color: var(--gold); box-shadow: 0 0 0 3px rgba(201,151,58,0.1); }
   .form-group input::placeholder { color: rgba(245,237,214,0.35); }
   .form-group select option { background: var(--navy); }
@@ -187,8 +187,8 @@
   /* WISHES */
   #wishes { padding: 5rem 1.5rem; }
   .wish-form-wrap { max-width: 600px; margin: 0 auto 3rem; }
-  .wish-name-input { width: 100%; background: rgba(26,46,69,0.5); border: 1px solid rgba(201,151,58,0.3); border-radius: 3px; padding: 0.75rem 1rem; color: var(--cream); font-family: 'Lato', sans-serif; font-size: 0.95rem; }
-  .wish-textarea { width: 100%; background: rgba(26,46,69,0.5); border: 1px solid rgba(201,151,58,0.3); border-radius: 3px; padding: 0.75rem 1rem; color: var(--cream); font-family: 'Lato', sans-serif; font-size: 0.95rem; min-height: 100px; resize: vertical; }
+  .wish-name-input { width: 100%; background: rgba(26,46,69,0.5); border: 1px solid rgba(201,151,58,0.3); border-radius: 3px; padding: 0.75rem 1rem; color: var(--cream); font-family: 'Lato', sans-serif; font-size: 1rem; }
+  .wish-textarea { width: 100%; background: rgba(26,46,69,0.5); border: 1px solid rgba(201,151,58,0.3); border-radius: 3px; padding: 0.75rem 1rem; color: var(--cream); font-family: 'Lato', sans-serif; font-size: 1rem; min-height: 100px; resize: vertical; }
   .wish-textarea:focus, .wish-name-input:focus { outline: none; border-color: var(--gold); }
   .wish-textarea::placeholder, .wish-name-input::placeholder { color: rgba(245,237,214,0.35); }
   .wish-btn { display: inline-block; margin-top: 0.75rem; border: 1px solid var(--gold); background: transparent; color: var(--gold-light); font-family: 'Cinzel', serif; font-size: 0.85rem; letter-spacing: 0.1em; padding: 0.65rem 1.6rem; border-radius: 3px; cursor: pointer; transition: all 0.3s ease; }
@@ -279,7 +279,7 @@
       <div class="photo-hero">
         <!-- Red sash / bandana overlay for pirate feel -->
         <div class="pirate-bandana"></div>
-        <img src="kiaan-photo.jpg" alt="Kiaan Birthday Photo" alt="Kiaan - the Birthday Captain">
+        <img src="https://raw.githubusercontent.com/Aarki1802/kiaan-birthday/main/kiaan-photo.jpg" alt="Kiaan Birthday Photo" alt="Kiaan - the Birthday Captain">
       </div>
     </div>
 
@@ -300,14 +300,13 @@
     <div class="section-divider reveal"><span class="divider-icon">⚓ The Journey ⚓</span></div>
     <div class="about-inner reveal">
       <div class="photo-about">
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAkACQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWm5ybnJ2eoqOkpaanqKmqsrO0tba2uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlbaWmJmaoqOkpaanqKmqsrO0tba2uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigAooooAKKKKACiiigAooooAKKKKACiiigD/2Q=="
-        alt="Kiaan">
+        <img src="https://raw.githubusercontent.com/Aarki1802/kiaan-birthday/main/kiaan-photo.jpg" alt="Kiaan">
       </div>
       <div class="about-text">
         <span class="section-eyebrow">About the Celebration</span>
         <h2 class="gold-heading" style="font-size:clamp(1.4rem,4vw,2rem);">Join the Adventure</h2>
         <p class="about-message">
-          Join us as we celebrate another exciting year in Kiaan's adventure. We would love for you to be part of this special day filled with fun, laughter, games, cake, and unforgettable memories!
+          Join us as we celebrate another exciting year in Kiaan's adventure. We would love for you to be part of this special day filled with fun, laughter, games, cake, and unforgettable memories.
         </p>
       </div>
     </div>
@@ -324,27 +323,27 @@
     </div>
     <div class="gallery-grid reveal">
       <div class="gallery-item" onclick="openLightbox(this)">
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHj/wAARCAAkACQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWm5ybnJ2eoqOkpaanqKmqsrO0tba2uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlbaWmJmaoqOkpaanqKmqsrO0tba2uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigAooooAKKKKACiiigAooooAKKKKACiiigD/2Q==" alt="Gallery">
+        <img src="https://raw.githubusercontent.com/Aarki1802/kiaan-birthday/main/20260527_074845.jpg" alt="Memory 1">
         <div class="gallery-overlay-icon">🔍</div>
       </div>
       <div class="gallery-item" onclick="openLightbox(this)">
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAkACQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWm5ybnJ2eoqOkpaanqKmqsrO0tba2uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlbaWmJmaoqOkpaanqKmqsrO0tba2uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigAooooAKKKKACiiigAooooAKKKKACiiigD/2Q==" alt="Gallery">
+        <img src="https://raw.githubusercontent.com/Aarki1802/kiaan-birthday/main/20260528_150158.jpg" alt="Memory 2">
         <div class="gallery-overlay-icon">🔍</div>
       </div>
       <div class="gallery-item" onclick="openLightbox(this)">
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAkACQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWm5ybnJ2eoqOkpaanqKmqsrO0tba2uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlbaWmJmaoqOkpaanqKmqsrO0tba2uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigAooooAKKKKACiiigAooooAKKKKACiiigD/2Q==" alt="Gallery">
+        <img src="https://raw.githubusercontent.com/Aarki1802/kiaan-birthday/main/20260531_141532.jpg" alt="Memory 3">
         <div class="gallery-overlay-icon">🔍</div>
       </div>
       <div class="gallery-item" onclick="openLightbox(this)">
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAkACQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWm5ybnJ2eoqOkpaanqKmqsrO0tba2uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlbaWmJmaoqOkpaanqKmqsrO0tba2uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigAooooAKKKKACiiigAooooAKKKKACiiigD/2Q==" alt="Gallery">
+        <img src="https://raw.githubusercontent.com/Aarki1802/kiaan-birthday/main/IMG_2380.jpg" alt="Memory 4">
         <div class="gallery-overlay-icon">🔍</div>
       </div>
       <div class="gallery-item" onclick="openLightbox(this)">
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAkACQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWm5ybnJ2eoqOkpaanqKmqsrO0tba2uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlbaWmJmaoqOkpaanqKmqsrO0tba2uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigAooooAKKKKACiiigAooooAKKKKACiiigD/2Q==" alt="Gallery">
+        <img src="https://raw.githubusercontent.com/Aarki1802/kiaan-birthday/main/Kiaan-photo.jpg" alt="Memory 5">
         <div class="gallery-overlay-icon">🔍</div>
       </div>
       <div class="gallery-item" onclick="openLightbox(this)">
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAkACQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWm5ybnJ2eoqOkpaanqKmqsrO0tba2uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlbaWmJmaoqOkpaanqKmqsrO0tba2uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigAooooAKKKKACiiigAooooAKKKKACiiigD/2Q==" alt="Gallery">
+        <img src="https://raw.githubusercontent.com/Aarki1802/kiaan-birthday/main/ONE%20PIECE%20CAKE%20%F0%9F%92%9C__%23gateausurcommande%20%23gateauonepiece%20%23gateaupersonnalise%CC%81%20%23gateausurcommandeparis%20%23gateauanniversaire.jpeg" alt="Cake">
         <div class="gallery-overlay-icon">🔍</div>
       </div>
     </div>
@@ -404,7 +403,7 @@
       <h2 class="gold-heading" style="font-size:clamp(1.4rem,4vw,2rem); text-align:center;">The Sweetest Treasure</h2>
     </div>
     <div class="cake-photo reveal">
-      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHj/wAARCAAkACQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWm5ybnJ2eoqOkpaanqKmqsrO0tba2uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlbaWmJmaoqOkpaanqKmqsrO0tba2uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigAooooAKKKKACiiigAooooAKKKKACiiigD/2Q==" alt="Cake">
+      <img src="https://raw.githubusercontent.com/Aarki1802/kiaan-birthday/main/ONE%20PIECE%20CAKE%20%F0%9F%92%9C__%23gateausurcommande%20%23gateauonepiece%20%23gateaupersonnalise%CC%81%20%23gateausurcommandeparis%20%23gateauanniversaire.jpeg" alt="One Piece Cake">
     </div>
     <p class="cake-msg reveal">
       The cake-cutting ceremony begins shortly after everyone arrives. Don't be late — the best adventures start on time!
@@ -525,8 +524,22 @@
     }
   }
 
-  /* RSVP */
-function submitRsvp(){
+  /* RSVP - CONFIGURATION SECTION */
+  // =========================================
+  // TO CUSTOMIZE THE RSVP FEATURE:
+  // Change the phoneNumber variable below to YOUR phone number.
+  // 
+  // FORMAT: Include country code WITHOUT '+', spaces, or dashes.
+  // EXAMPLES:
+  //   - India:  "919876543210" (country code 91)
+  //   - USA:    "15551234567"  (country code 1)
+  //   - UK:     "441234567890" (country code 44)
+  //
+  // The message will be sent to this number via WhatsApp when 
+  // someone submits the RSVP form.
+  // =========================================
+
+  function submitRsvp(){
     const name = document.getElementById('rsvp-name').value.trim();
     const mobile = document.getElementById('rsvp-mobile').value.trim();
     const guests = document.getElementById('rsvp-guests').value;
@@ -548,10 +561,8 @@ function submitRsvp(){
                     `📱 *Mobile:* ${mobile}\n` +
                     `⚓ *Attendance:* ${attendanceText}`;
 
-    // 3. ENTER YOUR PHONE NUMBER BELOW
-    // Crucial: Include your country code but DO NOT add any '+', spaces, or dashes. 
-    // For example: "919876543210" (India) or "15551234567" (USA)
-    const phoneNumber = "919011050454"; 
+    // 3. YOUR PHONE NUMBER - CHANGE THIS TO YOUR WHATSAPP NUMBER
+    const phoneNumber = "919011050454";
 
     // 4. Generate the WhatsApp API Link
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
@@ -565,7 +576,7 @@ function submitRsvp(){
       launchConfetti();
     }
 
-    // Redirect the page to WhatsApp after 1.2 seconds so they see the success confirmation first
+    // Redirect to WhatsApp after 1.2 seconds
     setTimeout(() => {
       window.location.href = whatsappUrl;
     }, 1200);
